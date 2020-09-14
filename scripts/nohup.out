@@ -1,0 +1,27 @@
+fatal: destination path 'moses-scripts' already exists and is not an empty directory.
+preprocessing.sh: line 29: ./../data/test.tokenized.fr: No such file or directory
+cat: ./../data/test.fr: No such file or directory
+preprocessing.sh: line 30: ./../data/test.fr: No such file or directory
+cat: ./../data/test.tokenized.fr: No such file or directory
+preprocessing.sh: line 34: subword-nmt: command not found
+preprocessing.sh: line 41: ./../data/train.bam: No such file or directory
+preprocessing.sh: line 42: ./../data/train.fr: No such file or directory
+preprocessing.sh: line 41: ./../data/dev.bam: No such file or directory
+preprocessing.sh: line 42: ./../data/dev.fr: No such file or directory
+preprocessing.sh: line 41: ./../data/test.bam: No such file or directory
+preprocessing.sh: line 42: ./../data/test.fr: No such file or directory
+python: can't open file './../scripts/build_vocab.py': [Errno 2] No such file or directory
+corpus: train
+wc: ./../data/train.bpe.bam: No such file or directory
+wc: ./../data/train.bpe.fr: No such file or directory
+0 total
+corpus: dev
+wc: ./../data/dev.bpe.bam: No such file or directory
+wc: ./../data/dev.bpe.fr: No such file or directory
+0 total
+corpus: test
+wc: ./../data/test.bpe.bam: No such file or directory
+wc: ./../data/test.bpe.fr: No such file or directory
+0 total
+wc: './../shared_models/*': No such file or directory
+At this point, please check that 1) file sizes are as expected, 2) languages are correct and 3) material is still parallel

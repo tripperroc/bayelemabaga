@@ -1,0 +1,223 @@
+/home/fac/cmh/.local/lib/python3.6/site-packages/torchtext/data/field.py:150: UserWarning: Field class will be retired in the 0.8.0 release and moved to torchtext.legacy. Please see 0.7.0 release notes for further information.
+  warnings.warn('{} class will be retired in the 0.8.0 release and moved to torchtext.legacy. Please see 0.7.0 release notes for further information.'.format(self.__class__.__name__), UserWarning)
+/home/fac/cmh/.local/lib/python3.6/site-packages/torchtext/data/example.py:78: UserWarning: Example class will be retired in the 0.8.0 release and moved to torchtext.legacy. Please see 0.7.0 release notes for further information.
+  warnings.warn('Example class will be retired in the 0.8.0 release and moved to torchtext.legacy. Please see 0.7.0 release notes for further information.', UserWarning)
+2020-08-13 15:38:01,551 Hello! This is Joey-NMT.
+2020-08-13 15:38:02.602285: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libnvinfer.so.6
+2020-08-13 15:38:02.627117: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libnvinfer_plugin.so.6
+2020-08-13 15:38:03,732 Total params: 11574272
+2020-08-13 15:38:03,735 Trainable parameters: ['decoder.layer_norm.bias', 'decoder.layer_norm.weight', 'decoder.layers.0.dec_layer_norm.bias', 'decoder.layers.0.dec_layer_norm.weight', 'decoder.layers.0.feed_forward.layer_norm.bias', 'decoder.layers.0.feed_forward.layer_norm.weight', 'decoder.layers.0.feed_forward.pwff_layer.0.bias', 'decoder.layers.0.feed_forward.pwff_layer.0.weight', 'decoder.layers.0.feed_forward.pwff_layer.3.bias', 'decoder.layers.0.feed_forward.pwff_layer.3.weight', 'decoder.layers.0.src_trg_att.k_layer.bias', 'decoder.layers.0.src_trg_att.k_layer.weight', 'decoder.layers.0.src_trg_att.output_layer.bias', 'decoder.layers.0.src_trg_att.output_layer.weight', 'decoder.layers.0.src_trg_att.q_layer.bias', 'decoder.layers.0.src_trg_att.q_layer.weight', 'decoder.layers.0.src_trg_att.v_layer.bias', 'decoder.layers.0.src_trg_att.v_layer.weight', 'decoder.layers.0.trg_trg_att.k_layer.bias', 'decoder.layers.0.trg_trg_att.k_layer.weight', 'decoder.layers.0.trg_trg_att.output_layer.bias', 'decoder.layers.0.trg_trg_att.output_layer.weight', 'decoder.layers.0.trg_trg_att.q_layer.bias', 'decoder.layers.0.trg_trg_att.q_layer.weight', 'decoder.layers.0.trg_trg_att.v_layer.bias', 'decoder.layers.0.trg_trg_att.v_layer.weight', 'decoder.layers.0.x_layer_norm.bias', 'decoder.layers.0.x_layer_norm.weight', 'decoder.layers.1.dec_layer_norm.bias', 'decoder.layers.1.dec_layer_norm.weight', 'decoder.layers.1.feed_forward.layer_norm.bias', 'decoder.layers.1.feed_forward.layer_norm.weight', 'decoder.layers.1.feed_forward.pwff_layer.0.bias', 'decoder.layers.1.feed_forward.pwff_layer.0.weight', 'decoder.layers.1.feed_forward.pwff_layer.3.bias', 'decoder.layers.1.feed_forward.pwff_layer.3.weight', 'decoder.layers.1.src_trg_att.k_layer.bias', 'decoder.layers.1.src_trg_att.k_layer.weight', 'decoder.layers.1.src_trg_att.output_layer.bias', 'decoder.layers.1.src_trg_att.output_layer.weight', 'decoder.layers.1.src_trg_att.q_layer.bias', 'decoder.layers.1.src_trg_att.q_layer.weight', 'decoder.layers.1.src_trg_att.v_layer.bias', 'decoder.layers.1.src_trg_att.v_layer.weight', 'decoder.layers.1.trg_trg_att.k_layer.bias', 'decoder.layers.1.trg_trg_att.k_layer.weight', 'decoder.layers.1.trg_trg_att.output_layer.bias', 'decoder.layers.1.trg_trg_att.output_layer.weight', 'decoder.layers.1.trg_trg_att.q_layer.bias', 'decoder.layers.1.trg_trg_att.q_layer.weight', 'decoder.layers.1.trg_trg_att.v_layer.bias', 'decoder.layers.1.trg_trg_att.v_layer.weight', 'decoder.layers.1.x_layer_norm.bias', 'decoder.layers.1.x_layer_norm.weight', 'decoder.layers.2.dec_layer_norm.bias', 'decoder.layers.2.dec_layer_norm.weight', 'decoder.layers.2.feed_forward.layer_norm.bias', 'decoder.layers.2.feed_forward.layer_norm.weight', 'decoder.layers.2.feed_forward.pwff_layer.0.bias', 'decoder.layers.2.feed_forward.pwff_layer.0.weight', 'decoder.layers.2.feed_forward.pwff_layer.3.bias', 'decoder.layers.2.feed_forward.pwff_layer.3.weight', 'decoder.layers.2.src_trg_att.k_layer.bias', 'decoder.layers.2.src_trg_att.k_layer.weight', 'decoder.layers.2.src_trg_att.output_layer.bias', 'decoder.layers.2.src_trg_att.output_layer.weight', 'decoder.layers.2.src_trg_att.q_layer.bias', 'decoder.layers.2.src_trg_att.q_layer.weight', 'decoder.layers.2.src_trg_att.v_layer.bias', 'decoder.layers.2.src_trg_att.v_layer.weight', 'decoder.layers.2.trg_trg_att.k_layer.bias', 'decoder.layers.2.trg_trg_att.k_layer.weight', 'decoder.layers.2.trg_trg_att.output_layer.bias', 'decoder.layers.2.trg_trg_att.output_layer.weight', 'decoder.layers.2.trg_trg_att.q_layer.bias', 'decoder.layers.2.trg_trg_att.q_layer.weight', 'decoder.layers.2.trg_trg_att.v_layer.bias', 'decoder.layers.2.trg_trg_att.v_layer.weight', 'decoder.layers.2.x_layer_norm.bias', 'decoder.layers.2.x_layer_norm.weight', 'decoder.layers.3.dec_layer_norm.bias', 'decoder.layers.3.dec_layer_norm.weight', 'decoder.layers.3.feed_forward.layer_norm.bias', 'decoder.layers.3.feed_forward.layer_norm.weight', 'decoder.layers.3.feed_forward.pwff_layer.0.bias', 'decoder.layers.3.feed_forward.pwff_layer.0.weight', 'decoder.layers.3.feed_forward.pwff_layer.3.bias', 'decoder.layers.3.feed_forward.pwff_layer.3.weight', 'decoder.layers.3.src_trg_att.k_layer.bias', 'decoder.layers.3.src_trg_att.k_layer.weight', 'decoder.layers.3.src_trg_att.output_layer.bias', 'decoder.layers.3.src_trg_att.output_layer.weight', 'decoder.layers.3.src_trg_att.q_layer.bias', 'decoder.layers.3.src_trg_att.q_layer.weight', 'decoder.layers.3.src_trg_att.v_layer.bias', 'decoder.layers.3.src_trg_att.v_layer.weight', 'decoder.layers.3.trg_trg_att.k_layer.bias', 'decoder.layers.3.trg_trg_att.k_layer.weight', 'decoder.layers.3.trg_trg_att.output_layer.bias', 'decoder.layers.3.trg_trg_att.output_layer.weight', 'decoder.layers.3.trg_trg_att.q_layer.bias', 'decoder.layers.3.trg_trg_att.q_layer.weight', 'decoder.layers.3.trg_trg_att.v_layer.bias', 'decoder.layers.3.trg_trg_att.v_layer.weight', 'decoder.layers.3.x_layer_norm.bias', 'decoder.layers.3.x_layer_norm.weight', 'decoder.layers.4.dec_layer_norm.bias', 'decoder.layers.4.dec_layer_norm.weight', 'decoder.layers.4.feed_forward.layer_norm.bias', 'decoder.layers.4.feed_forward.layer_norm.weight', 'decoder.layers.4.feed_forward.pwff_layer.0.bias', 'decoder.layers.4.feed_forward.pwff_layer.0.weight', 'decoder.layers.4.feed_forward.pwff_layer.3.bias', 'decoder.layers.4.feed_forward.pwff_layer.3.weight', 'decoder.layers.4.src_trg_att.k_layer.bias', 'decoder.layers.4.src_trg_att.k_layer.weight', 'decoder.layers.4.src_trg_att.output_layer.bias', 'decoder.layers.4.src_trg_att.output_layer.weight', 'decoder.layers.4.src_trg_att.q_layer.bias', 'decoder.layers.4.src_trg_att.q_layer.weight', 'decoder.layers.4.src_trg_att.v_layer.bias', 'decoder.layers.4.src_trg_att.v_layer.weight', 'decoder.layers.4.trg_trg_att.k_layer.bias', 'decoder.layers.4.trg_trg_att.k_layer.weight', 'decoder.layers.4.trg_trg_att.output_layer.bias', 'decoder.layers.4.trg_trg_att.output_layer.weight', 'decoder.layers.4.trg_trg_att.q_layer.bias', 'decoder.layers.4.trg_trg_att.q_layer.weight', 'decoder.layers.4.trg_trg_att.v_layer.bias', 'decoder.layers.4.trg_trg_att.v_layer.weight', 'decoder.layers.4.x_layer_norm.bias', 'decoder.layers.4.x_layer_norm.weight', 'decoder.layers.5.dec_layer_norm.bias', 'decoder.layers.5.dec_layer_norm.weight', 'decoder.layers.5.feed_forward.layer_norm.bias', 'decoder.layers.5.feed_forward.layer_norm.weight', 'decoder.layers.5.feed_forward.pwff_layer.0.bias', 'decoder.layers.5.feed_forward.pwff_layer.0.weight', 'decoder.layers.5.feed_forward.pwff_layer.3.bias', 'decoder.layers.5.feed_forward.pwff_layer.3.weight', 'decoder.layers.5.src_trg_att.k_layer.bias', 'decoder.layers.5.src_trg_att.k_layer.weight', 'decoder.layers.5.src_trg_att.output_layer.bias', 'decoder.layers.5.src_trg_att.output_layer.weight', 'decoder.layers.5.src_trg_att.q_layer.bias', 'decoder.layers.5.src_trg_att.q_layer.weight', 'decoder.layers.5.src_trg_att.v_layer.bias', 'decoder.layers.5.src_trg_att.v_layer.weight', 'decoder.layers.5.trg_trg_att.k_layer.bias', 'decoder.layers.5.trg_trg_att.k_layer.weight', 'decoder.layers.5.trg_trg_att.output_layer.bias', 'decoder.layers.5.trg_trg_att.output_layer.weight', 'decoder.layers.5.trg_trg_att.q_layer.bias', 'decoder.layers.5.trg_trg_att.q_layer.weight', 'decoder.layers.5.trg_trg_att.v_layer.bias', 'decoder.layers.5.trg_trg_att.v_layer.weight', 'decoder.layers.5.x_layer_norm.bias', 'decoder.layers.5.x_layer_norm.weight', 'encoder.layer_norm.bias', 'encoder.layer_norm.weight', 'encoder.layers.0.feed_forward.layer_norm.bias', 'encoder.layers.0.feed_forward.layer_norm.weight', 'encoder.layers.0.feed_forward.pwff_layer.0.bias', 'encoder.layers.0.feed_forward.pwff_layer.0.weight', 'encoder.layers.0.feed_forward.pwff_layer.3.bias', 'encoder.layers.0.feed_forward.pwff_layer.3.weight', 'encoder.layers.0.layer_norm.bias', 'encoder.layers.0.layer_norm.weight', 'encoder.layers.0.src_src_att.k_layer.bias', 'encoder.layers.0.src_src_att.k_layer.weight', 'encoder.layers.0.src_src_att.output_layer.bias', 'encoder.layers.0.src_src_att.output_layer.weight', 'encoder.layers.0.src_src_att.q_layer.bias', 'encoder.layers.0.src_src_att.q_layer.weight', 'encoder.layers.0.src_src_att.v_layer.bias', 'encoder.layers.0.src_src_att.v_layer.weight', 'encoder.layers.1.feed_forward.layer_norm.bias', 'encoder.layers.1.feed_forward.layer_norm.weight', 'encoder.layers.1.feed_forward.pwff_layer.0.bias', 'encoder.layers.1.feed_forward.pwff_layer.0.weight', 'encoder.layers.1.feed_forward.pwff_layer.3.bias', 'encoder.layers.1.feed_forward.pwff_layer.3.weight', 'encoder.layers.1.layer_norm.bias', 'encoder.layers.1.layer_norm.weight', 'encoder.layers.1.src_src_att.k_layer.bias', 'encoder.layers.1.src_src_att.k_layer.weight', 'encoder.layers.1.src_src_att.output_layer.bias', 'encoder.layers.1.src_src_att.output_layer.weight', 'encoder.layers.1.src_src_att.q_layer.bias', 'encoder.layers.1.src_src_att.q_layer.weight', 'encoder.layers.1.src_src_att.v_layer.bias', 'encoder.layers.1.src_src_att.v_layer.weight', 'encoder.layers.2.feed_forward.layer_norm.bias', 'encoder.layers.2.feed_forward.layer_norm.weight', 'encoder.layers.2.feed_forward.pwff_layer.0.bias', 'encoder.layers.2.feed_forward.pwff_layer.0.weight', 'encoder.layers.2.feed_forward.pwff_layer.3.bias', 'encoder.layers.2.feed_forward.pwff_layer.3.weight', 'encoder.layers.2.layer_norm.bias', 'encoder.layers.2.layer_norm.weight', 'encoder.layers.2.src_src_att.k_layer.bias', 'encoder.layers.2.src_src_att.k_layer.weight', 'encoder.layers.2.src_src_att.output_layer.bias', 'encoder.layers.2.src_src_att.output_layer.weight', 'encoder.layers.2.src_src_att.q_layer.bias', 'encoder.layers.2.src_src_att.q_layer.weight', 'encoder.layers.2.src_src_att.v_layer.bias', 'encoder.layers.2.src_src_att.v_layer.weight', 'encoder.layers.3.feed_forward.layer_norm.bias', 'encoder.layers.3.feed_forward.layer_norm.weight', 'encoder.layers.3.feed_forward.pwff_layer.0.bias', 'encoder.layers.3.feed_forward.pwff_layer.0.weight', 'encoder.layers.3.feed_forward.pwff_layer.3.bias', 'encoder.layers.3.feed_forward.pwff_layer.3.weight', 'encoder.layers.3.layer_norm.bias', 'encoder.layers.3.layer_norm.weight', 'encoder.layers.3.src_src_att.k_layer.bias', 'encoder.layers.3.src_src_att.k_layer.weight', 'encoder.layers.3.src_src_att.output_layer.bias', 'encoder.layers.3.src_src_att.output_layer.weight', 'encoder.layers.3.src_src_att.q_layer.bias', 'encoder.layers.3.src_src_att.q_layer.weight', 'encoder.layers.3.src_src_att.v_layer.bias', 'encoder.layers.3.src_src_att.v_layer.weight', 'encoder.layers.4.feed_forward.layer_norm.bias', 'encoder.layers.4.feed_forward.layer_norm.weight', 'encoder.layers.4.feed_forward.pwff_layer.0.bias', 'encoder.layers.4.feed_forward.pwff_layer.0.weight', 'encoder.layers.4.feed_forward.pwff_layer.3.bias', 'encoder.layers.4.feed_forward.pwff_layer.3.weight', 'encoder.layers.4.layer_norm.bias', 'encoder.layers.4.layer_norm.weight', 'encoder.layers.4.src_src_att.k_layer.bias', 'encoder.layers.4.src_src_att.k_layer.weight', 'encoder.layers.4.src_src_att.output_layer.bias', 'encoder.layers.4.src_src_att.output_layer.weight', 'encoder.layers.4.src_src_att.q_layer.bias', 'encoder.layers.4.src_src_att.q_layer.weight', 'encoder.layers.4.src_src_att.v_layer.bias', 'encoder.layers.4.src_src_att.v_layer.weight', 'encoder.layers.5.feed_forward.layer_norm.bias', 'encoder.layers.5.feed_forward.layer_norm.weight', 'encoder.layers.5.feed_forward.pwff_layer.0.bias', 'encoder.layers.5.feed_forward.pwff_layer.0.weight', 'encoder.layers.5.feed_forward.pwff_layer.3.bias', 'encoder.layers.5.feed_forward.pwff_layer.3.weight', 'encoder.layers.5.layer_norm.bias', 'encoder.layers.5.layer_norm.weight', 'encoder.layers.5.src_src_att.k_layer.bias', 'encoder.layers.5.src_src_att.k_layer.weight', 'encoder.layers.5.src_src_att.output_layer.bias', 'encoder.layers.5.src_src_att.output_layer.weight', 'encoder.layers.5.src_src_att.q_layer.bias', 'encoder.layers.5.src_src_att.q_layer.weight', 'encoder.layers.5.src_src_att.v_layer.bias', 'encoder.layers.5.src_src_att.v_layer.weight', 'src_embed.lut.weight', 'trg_embed.lut.weight']
+2020-08-13 15:38:06,314 cfg.name                           : bam_to_fr_bpe_transformer
+2020-08-13 15:38:06,315 cfg.data.src                       : bam
+2020-08-13 15:38:06,315 cfg.data.trg                       : fr
+2020-08-13 15:38:06,315 cfg.data.train                     : data/train
+2020-08-13 15:38:06,316 cfg.data.dev                       : data/dev
+2020-08-13 15:38:06,316 cfg.data.test                      : data/test
+2020-08-13 15:38:06,316 cfg.data.level                     : word
+2020-08-13 15:38:06,317 cfg.data.lowercase                 : False
+2020-08-13 15:38:06,317 cfg.data.max_sent_length           : 100
+2020-08-13 15:38:06,317 cfg.data.src_voc_min_freq          : 0
+2020-08-13 15:38:06,318 cfg.data.src_voc_limit             : 1000
+2020-08-13 15:38:06,318 cfg.data.trg_voc_min_freq          : 0
+2020-08-13 15:38:06,318 cfg.data.trg_voc_limit             : 1000
+2020-08-13 15:38:06,319 cfg.testing.beam_size              : 5
+2020-08-13 15:38:06,319 cfg.testing.alpha                  : 1.0
+2020-08-13 15:38:06,319 cfg.training.random_seed           : 42
+2020-08-13 15:38:06,320 cfg.training.optimizer             : adam
+2020-08-13 15:38:06,320 cfg.training.normalization         : tokens
+2020-08-13 15:38:06,320 cfg.training.adam_betas            : [0.9, 0.999]
+2020-08-13 15:38:06,321 cfg.training.scheduling            : plateau
+2020-08-13 15:38:06,321 cfg.training.patience              : 5
+2020-08-13 15:38:06,322 cfg.training.learning_rate_factor  : 0.5
+2020-08-13 15:38:06,322 cfg.training.learning_rate_warmup  : 1000
+2020-08-13 15:38:06,322 cfg.training.decrease_factor       : 0.7
+2020-08-13 15:38:06,323 cfg.training.loss                  : crossentropy
+2020-08-13 15:38:06,323 cfg.training.learning_rate         : 0.0004
+2020-08-13 15:38:06,323 cfg.training.learning_rate_min     : 1e-08
+2020-08-13 15:38:06,324 cfg.training.weight_decay          : 0.0
+2020-08-13 15:38:06,324 cfg.training.label_smoothing       : 0.2
+2020-08-13 15:38:06,324 cfg.training.batch_size            : 1024
+2020-08-13 15:38:06,325 cfg.training.batch_type            : token
+2020-08-13 15:38:06,325 cfg.training.eval_batch_size       : 256
+2020-08-13 15:38:06,325 cfg.training.eval_batch_type       : token
+2020-08-13 15:38:06,326 cfg.training.batch_multiplier      : 1
+2020-08-13 15:38:06,326 cfg.training.early_stopping_metric : eval_metric
+2020-08-13 15:38:06,326 cfg.training.epochs                : 120
+2020-08-13 15:38:06,327 cfg.training.validation_freq       : 40
+2020-08-13 15:38:06,327 cfg.training.logging_freq          : 10
+2020-08-13 15:38:06,327 cfg.training.eval_metric           : bleu
+2020-08-13 15:38:06,328 cfg.training.model_dir             : models/bam_to_fr_bpe_transformer
+2020-08-13 15:38:06,328 cfg.training.overwrite             : True
+2020-08-13 15:38:06,328 cfg.training.shuffle               : True
+2020-08-13 15:38:06,329 cfg.training.use_cuda              : True
+2020-08-13 15:38:06,329 cfg.training.max_output_length     : 100128
+2020-08-13 15:38:06,329 cfg.training.print_valid_sents     : [0, 1, 2, 3]
+2020-08-13 15:38:06,330 cfg.training.keep_last_ckpts       : 3
+2020-08-13 15:38:06,330 cfg.model.initializer              : xavier
+2020-08-13 15:38:06,331 cfg.model.bias_initializer         : zeros
+2020-08-13 15:38:06,331 cfg.model.init_gain                : 1.0
+2020-08-13 15:38:06,331 cfg.model.embed_initializer        : xavier
+2020-08-13 15:38:06,332 cfg.model.embed_init_gain          : 1.0
+2020-08-13 15:38:06,332 cfg.model.tied_embeddings          : False
+2020-08-13 15:38:06,332 cfg.model.tied_softmax             : True
+2020-08-13 15:38:06,333 cfg.model.encoder.type             : transformer
+2020-08-13 15:38:06,333 cfg.model.encoder.num_layers       : 6
+2020-08-13 15:38:06,333 cfg.model.encoder.num_heads        : 4
+2020-08-13 15:38:06,334 cfg.model.encoder.embeddings.embedding_dim : 256
+2020-08-13 15:38:06,334 cfg.model.encoder.embeddings.scale : True
+2020-08-13 15:38:06,334 cfg.model.encoder.embeddings.dropout : 0.2
+2020-08-13 15:38:06,335 cfg.model.encoder.hidden_size      : 256
+2020-08-13 15:38:06,335 cfg.model.encoder.ff_size          : 1024
+2020-08-13 15:38:06,336 cfg.model.encoder.dropout          : 0.3
+2020-08-13 15:38:06,336 cfg.model.decoder.type             : transformer
+2020-08-13 15:38:06,336 cfg.model.decoder.num_layers       : 6
+2020-08-13 15:38:06,337 cfg.model.decoder.num_heads        : 4
+2020-08-13 15:38:06,337 cfg.model.decoder.embeddings.embedding_dim : 256
+2020-08-13 15:38:06,337 cfg.model.decoder.embeddings.scale : True
+2020-08-13 15:38:06,338 cfg.model.decoder.embeddings.dropout : 0.2
+2020-08-13 15:38:06,338 cfg.model.decoder.hidden_size      : 256
+2020-08-13 15:38:06,338 cfg.model.decoder.ff_size          : 1024
+2020-08-13 15:38:06,339 cfg.model.decoder.dropout          : 0.3
+2020-08-13 15:38:06,339 Data set sizes: 
+	train 1611,
+	valid 268,
+	test 267
+2020-08-13 15:38:06,340 First training example:
+	[SRC] N'i binna ka bɔ jiri sanfɛ, i bolo bɛ se ka kari.
+	[TRG] Si tu tombais d'un arbre, tu pourrais se casser le bras.
+2020-08-13 15:38:06,340 First 10 words (src): (0) <unk> (1) <pad> (2) <s> (3) </s> (4) ka (5) bɛ (6) ye (7) A (8) ? (9) I
+2020-08-13 15:38:06,341 First 10 words (trg): (0) <unk> (1) <pad> (2) <s> (3) </s> (4) de (5) la (6) est (7) Il (8) le (9) à
+2020-08-13 15:38:06,342 Number of Src words (types): 1004
+2020-08-13 15:38:06,343 Number of Trg words (types): 1004
+2020-08-13 15:38:06,343 Model(
+	encoder=TransformerEncoder(num_layers=6, num_heads=4),
+	decoder=TransformerDecoder(num_layers=6, num_heads=4),
+	src_embed=Embeddings(embedding_dim=256, vocab_size=1004),
+	trg_embed=Embeddings(embedding_dim=256, vocab_size=1004))
+/home/fac/cmh/.local/lib/python3.6/site-packages/torchtext/data/iterator.py:48: UserWarning: BucketIterator class will be retired in the 0.8.0 release and moved to torchtext.legacy. Please see 0.7.0 release notes for further information.
+  warnings.warn('{} class will be retired in the 0.8.0 release and moved to torchtext.legacy. Please see 0.7.0 release notes for further information.'.format(self.__class__.__name__), UserWarning)
+2020-08-13 15:38:06,371 EPOCH 1
+/home/fac/cmh/.local/lib/python3.6/site-packages/torchtext/data/batch.py:23: UserWarning: Batch class will be retired in the 0.8.0 release and moved to torchtext.legacy. Please see 0.7.0 release notes for further information.
+  warnings.warn('{} class will be retired in the 0.8.0 release and moved to torchtext.legacy. Please see 0.7.0 release notes for further information.'.format(self.__class__.__name__), UserWarning)
+/home/fac/cmh/.local/lib/python3.6/site-packages/joeynmt/loss.py:46: UserWarning: This overload of nonzero is deprecated:
+	nonzero(Tensor input, *, Tensor out)
+Consider using one of the following signatures instead:
+	nonzero(Tensor input, *, bool as_tuple) (Triggered internally at  /pytorch/torch/csrc/utils/python_arg_parser.cpp:766.)
+  padding_positions = torch.nonzero(targets.data == self.pad_index)
+2020-08-13 15:38:07,549 Epoch   1 Step:       10 Batch Loss:     4.656417 Tokens per Sec:     3443, Lr: 0.000400
+2020-08-13 15:38:08,519 Epoch   1 Step:       20 Batch Loss:     3.809261 Tokens per Sec:     5563, Lr: 0.000400
+2020-08-13 15:38:08,722 Epoch   1: total training loss 87.73
+2020-08-13 15:38:08,723 EPOCH 2
+2020-08-13 15:38:09,437 Epoch   2 Step:       30 Batch Loss:     3.980788 Tokens per Sec:     5050, Lr: 0.000400
+2020-08-13 15:38:10,472 Epoch   2 Step:       40 Batch Loss:     3.374647 Tokens per Sec:     4589, Lr: 0.000400
+2020-08-13 15:38:11,316 Hooray! New best validation result [eval_metric]!
+2020-08-13 15:38:11,316 Saving new checkpoint.
+2020-08-13 15:38:17,997 Example #0
+2020-08-13 15:38:17,998 	Source:     ji kalanman
+2020-08-13 15:38:17,999 	Reference:  l'eau chaude
+2020-08-13 15:38:17,999 	Hypothesis: <unk>
+2020-08-13 15:38:18,000 Example #1
+2020-08-13 15:38:18,001 	Source:     ni X ye
+2020-08-13 15:38:18,001 	Reference:  avec X
+2020-08-13 15:38:18,002 	Hypothesis: <unk>
+2020-08-13 15:38:18,002 Example #2
+2020-08-13 15:38:18,003 	Source:     Sɛ tɛ fɛn juguw yuguri ka bila a denw kɔrɔ.
+2020-08-13 15:38:18,004 	Reference:  Un parent ne donne pas de mauvaises choses à son enfant.
+2020-08-13 15:38:18,005 	Hypothesis: <unk>
+2020-08-13 15:38:18,005 Example #3
+2020-08-13 15:38:18,006 	Source:     jɛgɛ kɛnɛ
+2020-08-13 15:38:18,007 	Reference:  poisson frais
+2020-08-13 15:38:18,007 	Hypothesis: <unk>
+2020-08-13 15:38:18,008 Validation result (greedy) at epoch   2, step       40: bleu:   0.00, loss: 5351.8159, ppl:  23.4660, duration: 7.5354s
+2020-08-13 15:38:18,547 Epoch   2: total training loss 78.84
+2020-08-13 15:38:18,548 EPOCH 3
+2020-08-13 15:38:19,249 Epoch   3 Step:       50 Batch Loss:     3.720738 Tokens per Sec:     4212, Lr: 0.000400
+2020-08-13 15:38:20,346 Epoch   3 Step:       60 Batch Loss:     3.691842 Tokens per Sec:     4417, Lr: 0.000400
+2020-08-13 15:38:21,052 Epoch   3: total training loss 76.92
+2020-08-13 15:38:21,053 EPOCH 4
+2020-08-13 15:38:21,480 Epoch   4 Step:       70 Batch Loss:     3.729211 Tokens per Sec:     4757, Lr: 0.000400
+2020-08-13 15:38:22,664 Epoch   4 Step:       80 Batch Loss:     3.792747 Tokens per Sec:     3807, Lr: 0.000400
+2020-08-13 15:38:23,658 Example #0
+2020-08-13 15:38:23,658 	Source:     ji kalanman
+2020-08-13 15:38:23,659 	Reference:  l'eau chaude
+2020-08-13 15:38:23,659 	Hypothesis: <unk>
+2020-08-13 15:38:23,660 Example #1
+2020-08-13 15:38:23,660 	Source:     ni X ye
+2020-08-13 15:38:23,661 	Reference:  avec X
+2020-08-13 15:38:23,661 	Hypothesis: <unk>
+2020-08-13 15:38:23,661 Example #2
+2020-08-13 15:38:23,662 	Source:     Sɛ tɛ fɛn juguw yuguri ka bila a denw kɔrɔ.
+2020-08-13 15:38:23,662 	Reference:  Un parent ne donne pas de mauvaises choses à son enfant.
+2020-08-13 15:38:23,663 	Hypothesis: <unk> <unk>
+2020-08-13 15:38:23,663 Example #3
+2020-08-13 15:38:23,664 	Source:     jɛgɛ kɛnɛ
+2020-08-13 15:38:23,664 	Reference:  poisson frais
+2020-08-13 15:38:23,665 	Hypothesis: <unk>
+2020-08-13 15:38:23,665 Validation result (greedy) at epoch   4, step       80: bleu:   0.00, loss: 4972.9512, ppl:  18.7682, duration: 1.0004s
+2020-08-13 15:38:24,479 Epoch   4: total training loss 71.23
+2020-08-13 15:38:24,480 EPOCH 5
+2020-08-13 15:38:24,832 Epoch   5 Step:       90 Batch Loss:     3.836658 Tokens per Sec:     4319, Lr: 0.000400
+2020-08-13 15:38:25,976 Epoch   5 Step:      100 Batch Loss:     3.119994 Tokens per Sec:     4072, Lr: 0.000400
+2020-08-13 15:38:26,872 Epoch   5: total training loss 69.08
+2020-08-13 15:38:26,873 EPOCH 6
+2020-08-13 15:38:27,118 Epoch   6 Step:      110 Batch Loss:     3.000906 Tokens per Sec:     3717, Lr: 0.000400
+2020-08-13 15:38:28,256 Epoch   6 Step:      120 Batch Loss:     3.031948 Tokens per Sec:     4251, Lr: 0.000400
+2020-08-13 15:38:32,779 Example #0
+2020-08-13 15:38:32,780 	Source:     ji kalanman
+2020-08-13 15:38:32,781 	Reference:  l'eau chaude
+2020-08-13 15:38:32,781 	Hypothesis: <unk>
+2020-08-13 15:38:32,782 Example #1
+2020-08-13 15:38:32,782 	Source:     ni X ye
+2020-08-13 15:38:32,783 	Reference:  avec X
+2020-08-13 15:38:32,783 	Hypothesis: <unk>
+2020-08-13 15:38:32,784 Example #2
+2020-08-13 15:38:32,785 	Source:     Sɛ tɛ fɛn juguw yuguri ka bila a denw kɔrɔ.
+2020-08-13 15:38:32,785 	Reference:  Un parent ne donne pas de mauvaises choses à son enfant.
+2020-08-13 15:38:32,786 	Hypothesis: <unk> <unk> <unk> <unk> <unk>
+2020-08-13 15:38:32,786 Example #3
+2020-08-13 15:38:32,787 	Source:     jɛgɛ kɛnɛ
+2020-08-13 15:38:32,787 	Reference:  poisson frais
+2020-08-13 15:38:32,788 	Hypothesis: <unk>
+2020-08-13 15:38:32,788 Validation result (greedy) at epoch   6, step      120: bleu:   0.00, loss: 4663.3809, ppl:  15.6369, duration: 4.5312s
+2020-08-13 15:38:33,895 Epoch   6 Step:      130 Batch Loss:     2.805907 Tokens per Sec:     4140, Lr: 0.000400
+2020-08-13 15:38:33,897 Epoch   6: total training loss 69.45
+2020-08-13 15:38:33,897 EPOCH 7
+2020-08-13 15:38:35,045 Epoch   7 Step:      140 Batch Loss:     3.253175 Tokens per Sec:     4240, Lr: 0.000400
+2020-08-13 15:38:36,102 Epoch   7 Step:      150 Batch Loss:     3.363503 Tokens per Sec:     4234, Lr: 0.000400
+2020-08-13 15:38:36,305 Epoch   7: total training loss 67.37
+2020-08-13 15:38:36,306 EPOCH 8
+2020-08-13 15:38:37,128 Epoch   8 Step:      160 Batch Loss:     3.022788 Tokens per Sec:     4489, Lr: 0.000400
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/fac/cmh/.local/lib/python3.6/site-packages/joeynmt/__main__.py", line 41, in <module>
+    main()
+  File "/home/fac/cmh/.local/lib/python3.6/site-packages/joeynmt/__main__.py", line 29, in main
+    train(cfg_file=args.config_path)
+  File "/home/fac/cmh/.local/lib/python3.6/site-packages/joeynmt/training.py", line 650, in train
+    trainer.train_and_validate(train_data=train_data, valid_data=dev_data)
+  File "/home/fac/cmh/.local/lib/python3.6/site-packages/joeynmt/training.py", line 375, in train_and_validate
+    batch_type=self.eval_batch_type
+  File "/home/fac/cmh/.local/lib/python3.6/site-packages/joeynmt/prediction.py", line 106, in validate_on_data
+    max_output_length=max_output_length)
+  File "/home/fac/cmh/.local/lib/python3.6/site-packages/joeynmt/model.py", line 170, in run_batch
+    max_output_length=max_output_length)
+  File "/home/fac/cmh/.local/lib/python3.6/site-packages/joeynmt/search.py", line 44, in greedy
+    decoder, encoder_output, encoder_hidden)
+  File "/home/fac/cmh/.local/lib/python3.6/site-packages/joeynmt/search.py", line 154, in transformer_greedy
+    trg_mask=trg_mask
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/fac/cmh/.local/lib/python3.6/site-packages/joeynmt/decoders.py", line 518, in forward
+    src_mask=src_mask, trg_mask=trg_mask)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/fac/cmh/.local/lib/python3.6/site-packages/joeynmt/transformer_layers.py", line 264, in forward
+    h1 = self.trg_trg_att(x_norm, x_norm, x_norm, mask=trg_mask)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/fac/cmh/.local/lib/python3.6/site-packages/joeynmt/transformer_layers.py", line 73, in forward
+    scores = scores.masked_fill(~mask.unsqueeze(1), float('-inf'))
+RuntimeError: CUDA out of memory. Tried to allocate 2.27 GiB (GPU 0; 7.43 GiB total capacity; 2.97 GiB already allocated; 2.27 GiB free; 4.55 GiB reserved in total by PyTorch)
